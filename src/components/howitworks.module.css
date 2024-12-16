@@ -1,0 +1,63 @@
+.howItWorksArea{
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentTitle{
+    font-size: 2.5rem;
+    color: var(--orange);
+    font-family: var(--font-family-one);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    width: 1100px;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.imageBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.img{
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #4f4f4f;
+    padding: 5px;
+}
+
+.contentBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.contentBox p{
+    color: white;
+    font-family: var(--font-family-one);
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+.contentBox p::selection{
+    color: var(--orange);
+    background-color: #fff;
+}

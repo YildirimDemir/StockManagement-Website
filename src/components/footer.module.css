@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    border-top: 2px solid var(--dark-gray);
+    margin-top: 50px;
+}
+
+.footer p{
+    color: #fff;
+    font-family: var(--font-family-one);
+}

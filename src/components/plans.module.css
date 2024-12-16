@@ -1,0 +1,94 @@
+.plansArea{
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plansContainer{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planBox{
+    width: 300px;
+    height: 380px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid var(--dark-gray);
+    padding: 15px;
+    background: linear-gradient(135deg, #4e220034, #141414, #141414);
+    background-size: 200% 200%;
+    position: relative;
+}
+
+.planBox h3{
+    color: var(--orange);
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--font-family-two);
+}
+
+.planBox h4{
+    color: var(--orange);
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--font-family-two);
+    margin-bottom: 10px;
+}
+
+.planBox p{
+    color: white;
+    font-family: var(--font-family-one);
+    font-weight: 600;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+.planBox svg{
+    margin-right: 10px;
+    font-size: .8rem;
+    color: var(--orange);
+}
+
+.mostPopular {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #2c0fd3;
+    right: -25px;
+    top: -25px;
+}
+
+.mostPopular span{
+    color: #fff;
+    font-family: var(--font-family-two);
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.startNow{
+    padding: 4px 8px;
+    background-color: var(--orange);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    left: 92px;
+}

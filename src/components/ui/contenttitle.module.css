@@ -1,0 +1,7 @@
+.contentTitle{
+    font-size: 2.5rem;
+    color: var(--orange);
+    font-family: var(--font-family-one);
+    font-weight: 800;
+    margin-bottom: 20px;
+}
